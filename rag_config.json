@@ -19,7 +19,7 @@
   "similarity_threshold": 0.25,
   "final_top_k": 5,
   "enable_safety_boosting": false,
-  "ollama_model": "Llama-3.2-3B-Finetune-q4k.gguf:latest",
+  "ollama_model": "masonlf/llama3.2-3b-elecfinetune",
   "ollama_host": "http://localhost:11434",
   "max_context_length": 3000,
   "temperature": 0.1,
