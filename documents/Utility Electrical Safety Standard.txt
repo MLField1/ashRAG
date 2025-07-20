@@ -1,0 +1,168 @@
+
+
+Document: GCC-SAFE-2024 Rev 3.1
+
+Compliance: OSHA 1910.300-series, CSA Z462-23, NFPA 70E 2024
+
+1. Hazard-Specific Controls
+Electrical Shock Prevention
+
+Voltage Thresholds:
+50V AC/100V DC: Mandatory PPE + GFCIs
+
+600V: Prohibited approach boundary enforcement
+
+
+Lockout Verification:
+Test voltage detector on known live source
+Verify circuit de-energization
+Re-test detector on live source
+
+Arc Flash Mitigation
+
+Incident Energy Protocols:
+<1.2 cal/cm²: Category 0 PPE
+1.2–4 cal/cm²: Category 1+
+4 cal/cm²: Engineered controls required
+
+
+Boundary Distances (IEEE 1584):
+Flash Protection Boundary = √(53 × kVA × 0.01) meters
+
+Arc Blast Protection
+
+Mandatory Pre-Work Actions:
+Vibration analysis on bus joints
+Infrared scan for thermal faults
+Pressure venting verification for switchgear
+
+2. Critical Procedures
+Zero-Energy Verification
+plain
+
+STEP 1: System shutdown (OSHA 1910.333(b)(2))  
+STEP 2: Position isolators OFF/OPEN + lock per LOTO-UTL-2024  
+STEP 3: Test all phases at point-of-work  
+STEP 4: Apply grounds for capacitve loads  
+Applies to all circuits >50V
+
+Energized Work Authorization
+When Permitted:
+
+
+Diagnostics <5 minutes at >600V
+
+Infeasibility of de-energization (OSHA 1910.333(a)(1))
+Requirements:
+
+Site-Specific Work Plan
+
+Incident energy analysis calculation
+
+Real-time remote supervision via GCC
+
+3. PPE Requirements Hierarchy
+Incident Energy (cal/cm²) | Protection System
+
+
+0–1.2 | CAT 0: FR shirt/pants + voltage gloves + safety glasses
+
+1.2–4 | CAT 1: + Flash hood + hearing protection
+
+4–8 | CAT 2: + Arc suit (8 cal) + balaclava
+
+8–25 | CAT 3: + Multi-layer suit + respirator
+
+25 | CAT 4: Max. coverage suit + SCBA
+
+
+Glove Selection (ASTM D120):
+
+
+Class 00: <=500V (1-min test)
+
+Class 2: <=17kV
+
+Class 4: <=36kV
+
+4. Compliance Rules
+Worker Classification
+Qualified Person:
+
+
+Documentation of 4,000+ hours in electrical role
+
+Annual hands-on emergency drill certification
+Unqualified Person:
+
+Strict prohibition within limited approach boundary
+(<25kV: 1.92m, >25kV: space + 0.1m/kV adjustment)
+
+Testing Instruments:
+
+Field-calibrated per IEEE 510 monthly
+
+Dual-channel verification systems for >300V
+
+Safety rating matching circuit voltage
+
+5. Emergency Response
+Electrical Contact Protocol:
+
+
+DO NOT TOUCH victim
+
+De-energize via GCC emergency disconnect (Code RED)
+
+Apply rubber glove rescue if >600V (trained responders only)
+
+CPR within 3 minutes for cardiac arrest
+
+Arc Event First Aid:
+
+
+COOL burns: 25°C water flush (minimum 15 min)
+
+NO creams/lotions
+
+Monitor for airway swelling
+
+6. Compliance Controls
+Documentation:
+
+
+Pre-work JHA + arc flash labels per NFPA 70E 130.5
+
+GCC Permit BG-UTL-2024 for all grounding
+
+Daily equipment inspection logs
+
+Training:
+
+
+Initial: 72-hour technical course
+
+Annual:
+24-hour refresher
+Live-dead-live testing drills
+PPE donning/doffing
+
+Enforcement:
+
+Immediate work stoppage for:
+
+
+Missing voltage verification
+
+Incorrect PPE per incident energy
+
+Lockouts applied without OFF/OPEN verification
+
+Reference Annexes:
+
+
+Annex A: Root Cause Analysis Matrix
+
+Annex B: OESC Section 2-300 Exemptions
+
+Annex C: NERC CIP-005 Electronic Access Controls

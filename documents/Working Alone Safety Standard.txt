@@ -1,0 +1,158 @@
+
+Document: WA-UTL-2024 Rev 1.0
+
+Compliance Standards:
+
+
+OSHA 1910 General Duty Clause
+
+ANSI Z358.1 Monitoring Systems
+
+CSA Z1000 Solo Worker Guidelines
+
+1. Scope & Definitions
+Designated Solo Work:
+
+
+Tasks with mitigated hazards (e.g., meter reading, inspections)
+
+Prohibited: High-risk activities (confined space, >6 ft elevation)
+Unintentional Solo Work:
+
+Unexpected separation from crew >100 ft for >15 min
+
+Requires immediate supervisor notification
+
+2. Mandatory Communication Protocol
+Interval Requirements:
+
+
+Check-ins every 30 minutes (high-risk zones)
+
+Check-ins every 60 minutes (low-risk remote areas)
+Methods (Hierarchy):
+
+
+Two-way SATCOM with GPS (ATEX-rated)
+
+Cellular-linked push-to-talk apps
+
+Manual check-in logs
+Failure Response:
+
+
+Missed check-in → Alarm triggered at dispatch
+
+No response after 5 min → Dispatch rescue/Locate GPS
+
+3. Hazard-Specific Controls
+Electrical Work:
+
+
+Voltage Limit: ≤240V (no live work >50V alone)
+
+Requirement: Infrared camera inspection before approach
+Field Vehicle Operations:
+
+Stuck Vehicle Protocol:
+• Attempt self-recovery ≤10 min
+• Activate SOS beacon if immobilized
+Wildlife Threat Areas:
+
+Mandatory Gear: Bear spray + air horn
+
+Restriction: No solo work dusk-dawn in bear country
+
+4. Monitoring Equipment Standards
+Type A - Body-Worn:
+
+
+Passing: Dual-mode cellular/satellite
+
+Failing: Single-communication units
+Type B - Vehicle-Mounted:
+
+Passing: Automated engine-stop detection + tilt sensors
+
+Failing: Manual-only alert systems
+Technical Requirements:
+
+Operating Temp: -40°C to +55°C
+
+Battery Life: ≥12 hours continual
+
+Certification: IP68 waterproof / SIL2 functional safety
+
+5. Prohibited Solo Activities
+Absolute Restrictions:
+
+
+Confined space entry
+
+Transmission tower climbing
+
+Hazardous voltage testing (>50V)
+
+Chemical handling (transformers, SF6)
+Conditional Allowances:
+✅ Ground-level substation rounds WITH:
+
+Live video feed to control center
+
+Man-down sensors activated
+
+6. Emergency Response Protocol
+Alarm Activation Thresholds:
+
+
+Man-down detection (impact + no motion): Auto-alert
+
+Ambient air quality hazard: Auto-alert
+
+Blood pressure emergency: Manual trigger
+Rescue Timing:
+
+Urban Areas: Response ≤15 minutes
+
+Remote Areas: Response ≤60 minutes with GPS coordinates
+
+7. Training & Mock Drills
+Initial Training:
+
+
+8-hour classroom: Risk recognition, tech use
+
+Field Simulation: Simulated emergency response
+Annual Requirements:
+
+Tech competency test
+
+Solo scenario drill (abandoned vehicle simulation)
+Docs: ANSI-compliant training record (JD number appended)
+
+8. Critical Abbreviations
+
+SIL2: Safety Integrity Level 2 (monitoring reliability standard)
+
+ATEX: Hazardous Atmosphere Equipment Certification
+
+SATCOM: Satellite Communication
+
+LEL: Lower Explosive Limit
+
+OSHA: Occupational Safety and Health Administration
+
+9. Violations & Corrections
+Critical Failure:
+
+
+Worker performing transformer oil sampling alone
+Correction:
+
+
+Immediate work stoppage
+
+Mandatory 24-hour suspension
+
+Retraining verification
+Record: Logged in BST Herald Safety Database

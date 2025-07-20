@@ -1,0 +1,127 @@
+
+1. Contact Resistance Test
+
+
+Parameter: DC Resistance
+Pass: Within manufacturer's specified tolerance
+Fail: Exceeds manufacturer's specification by more than 25%
+
+Parameter: Phase Balance
+Pass: Phase difference ≤ 15%
+Fail: Phase difference > 20%
+
+Parameter: Temperature Rise
+Pass: ≤ 30°C above ambient temperature
+Fail: > 45°C above ambient during current injection
+Purpose: Detect contact erosion or loose connections using micro-ohmmeter.
+
+2. Insulation Resistance Test
+
+
+Parameter: Phase-to-Phase
+Pass: > 1,000 MΩ
+Fail: < 5 MΩ
+
+Parameter: Phase-to-Ground
+Pass: > 500 MΩ
+Fail: < 2 MΩ
+
+Parameter: Time-Resistance Trend
+Pass: Increasing resistance slope
+Fail: Flat or decreasing resistance slope
+Purpose: Verify insulation integrity between poles and ground.
+
+3. Contact Timing Test
+
+
+Parameter: Open/Close Time
+Pass: Within ±10% of manufacturer specification
+Fail: Exceeds specification by >15%
+
+Parameter: Close-Open Time
+Pass: ≤ 3 cycles
+Fail: > 5 cycles
+
+Parameter: Pole Disparity
+Pass: ≤ 1 ms difference between poles
+Fail: > 2 ms difference between poles
+Purpose: Verify operation speed and phase synchronization.
+
+4. Motion Analysis
+
+
+Parameter: Contact Speed
+Pass: 10-15 ft/sec (adjustable range)
+Fail: <8 ft/sec or >18 ft/sec
+
+Parameter: Rebound
+Pass: ≤ 15% of total stroke distance
+Fail: > 20% of total stroke distance
+
+Parameter: Overdrive
+Pass: Within 5% of specification
+Fail: Deviation >10% from specification
+Purpose: Detect mechanical issues in SF6/vacuum breakers via travel transducer.
+
+5. Minimum Trip/Close Coil Test
+
+
+Parameter: Pickup Voltage
+Pass: ≤75% of rated voltage
+Fail: >85% of rated voltage required
+
+Parameter: Dropout Voltage
+Pass: Hold closed at ≥20% rated voltage
+Fail: Remains closed below 15% rated voltage
+
+Parameter: Power Consumption
+Pass: <100W (instantaneous)
+Fail: >150W sustained
+Purpose: Verify coil operation at voltage extremes.
+
+6. SF6 Gas Analysis
+
+
+Parameter: Gas Purity
+Pass: >99.0% SF6 content
+Fail: <97.0% SF6 content
+
+Parameter: Moisture Content
+Pass: <150 ppm at 20°C
+Fail: >300 ppm at 20°C
+
+Parameter: Decomposition Byproducts
+Pass: SO₂ + H₂S <5 ppm
+Fail: SO₂ + H₂S >10 ppm
+Purpose: Detect arc byproducts and gas decomposition in SF6 breakers.
+
+7. Dielectric Tests
+
+
+Test: Hi-Pot AC
+Pass: No flashover at 80 kV
+Fail: Leakage current >500 μA or flashover
+
+Test: Impulse
+Pass: Withstands Basic Insulation Level (BIL) rating
+Fail: Flashover occurs at ≤85% of BIL rating
+
+Test: Partial Discharge
+Pass: <20 pC measured
+Fail: >50 pC measured
+Purpose: Validate insulation withstand capability per IEEE C37.09.
+
+Key Notes
+
+
+Test Sequence: Perform mechanical tests before electrical tests
+
+Critical Failure Indicators:
+• Contact welding during operation
+• Interruption failure at 50% rated current
+• SF6 gas pressure <20 psig at 20°C
+
+Referenced Standards:
+• IEEE C37.04 (Breaker Ratings)
+• ANSI/NETA MTS-2019
+• IEC 62271-100

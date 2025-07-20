@@ -1,0 +1,69 @@
+
+Date: 2023-11-17
+
+Purpose: Diagnose insulation contamination/deterioration using Polarization Index (PI) and Doble testing methodology (combining IR and power factor measurements).
+
+Polarization Index (PI) Criteria
+
+
+Parameter: Polarization Index
+Pass: ≥ 2.0 (Class F insulation)
+Fail: < 1.5 (requires immediate maintenance)
+
+Doble Test Acceptance Criteria
+
+
+Parameter: Insulation Resistance (IR) + Power Factor
+Pass Condition: Must meet both - IR > 100 GΩ AND Power Factor < 0.8%
+Fail Condition: Fails if either IR ≤ 100 GΩ OR Power Factor ≥ 0.8%
+
+Component-Specific Requirements
+
+
+Stator Insulation Resistance
+Pass: > 100 GΩ
+Fail: ≤ 100 GΩ
+
+Rotor Insulation Resistance
+Pass: > 100 MΩ
+Fail: ≤ 100 MΩ
+
+Power Factor Measurement
+Pass: < 0.8%
+Fail: ≥ 0.8%
+
+Example Test Report
+
+
+Parameter: Stator IR
+Measured Value: 150 GΩ
+Acceptance Criteria: >100 GΩ
+Result: Pass
+
+Parameter: Rotor IR
+Measured Value: 800 MΩ
+Acceptance Criteria: >100 MΩ
+Result: Pass
+
+Parameter: Power Factor
+Measured Value: 0.7%
+Acceptance Criteria: <0.8%
+Result: Pass
+
+Parameter: Polarization Index
+Measured Value: 2.5
+Acceptance Criteria: ≥2.0
+Result: Pass
+
+Technical Notes
+
+
+Test Sequence:
+IR measurements before power factor tests
+PI calculation = (10-minute IR value)/(1-minute IR value)
+
+Equipment Standards:
+IEEE 43 (Motor Insulation Testing)
+Doble ES43 Test Set Specifications
+
+Environmental Adjustment: Values valid at 25°C ±5°C with humidity <65% RH

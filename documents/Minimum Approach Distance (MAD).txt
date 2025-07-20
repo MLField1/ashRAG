@@ -1,0 +1,68 @@
+
+Date: 2023-11-20 | Doc ID: MAD-SAFETY-001
+
+Purpose
+To establish safe working distances from energized electrical equipment to prevent injury from arc flash, electric shock, or electrocution.
+
+Scope
+Applies to all personnel working on or near energized electrical systems (AC/DC) rated 50V or higher , including:
+
+Substations, switchgear, transformers, overhead/underground lines.
+Maintenance, testing, or troubleshooting activities.
+Definitions
+Minimum Approach Distance (MAD): The closest distance a worker may approach an energized conductor or component without proper PPE or insulation.
+Qualified Person: Trained and authorized personnel per OSHA/NFPA 70E standards.
+Arc Flash Boundary: Distance at which incident energy from an arc flash drops to 1.2 cal/cm² (risk of second-degree burns).
+Key Factors Determining MAD
+Voltage Level
+Equipment Type (e.g., open-air lines vs. enclosed switchgear)
+Working Position (e.g., horizontal vs. vertical access)
+Environmental Conditions (e.g., humidity, dust, conductive contaminants)
+Minimum Approach Distance Table
+(Based on NFPA 70E 2021 Table 130.4(D)(a) and OSHA 29 CFR 1910.350)
+
+
+Voltage Range: 50V – 300V
+Limited Approach Distance (LAD): 3 ft (0.91 m)
+Restricted Approach Distance (RAD): 1 ft (0.30 m)
+Arc Flash Boundary (AFB): 4 ft (1.22 m)
+
+Voltage Range: 301V – 750V
+Limited Approach Distance (LAD): 3 ft (0.91 m)
+Restricted Approach Distance (RAD): 1 ft (0.30 m)
+Arc Flash Boundary (AFB): 6 ft (1.83 m)
+
+Voltage Range: 751V – 15kV
+Limited Approach Distance (LAD): 4 ft (1.22 m)
+Restricted Approach Distance (RAD): 2 ft (0.61 m)
+Arc Flash Boundary (AFB): 8 ft (2.44 m)
+
+Voltage Range: 15.1kV – 36kV
+Limited Approach Distance (LAD): 5 ft (1.52 m)
+Restricted Approach Distance (RAD): 3 ft (0.91 m)
+Arc Flash Boundary (AFB): 10 ft (3.05 m)
+
+Voltage Range: 36.1kV – 69kV
+Minimum Approach Distance (Phase-to-Ground): 3 ft (0.91 m)
+Minimum Approach Distance (Phase-to-Phase): 4 ft (1.22 m)
+PPE Required: Class 2 rubber gloves + leather protectors, FR clothing, face shield
+
+Voltage Range: 69.1kV – 115kV
+Minimum Approach Distance (Phase-to-Ground): 4 ft (1.22 m)
+Minimum Approach Distance (Phase-to-Phase): 5 ft (1.52 m)
+PPE Required: Class 4 rubber gloves, arc-rated suit, insulating sleeves
+
+Voltage Range: 115.1kV – 138kV
+Minimum Approach Distance (Phase-to-Ground): 5 ft (1.52 m)
+Minimum Approach Distance (Phase-to-Phase): 6 ft (1.83 m)
+PPE Required: Class 4 gloves, arc-rated suit, face shield, insulating tools
+
+Voltage Range: 138.1kV – 230kV
+Minimum Approach Distance (Phase-to-Ground): 6 ft (1.83 m)
+Minimum Approach Distance (Phase-to-Phase): 7 ft (2.13 m)
+PPE Required: Class 4 gloves, arc-rated suit (40+ cal/cm²), insulating hot sticks
+
+Notes: 
+Limited Approach Distance (LAD): Unqualified persons must not cross this boundary without supervision.
+Restricted Approach Distance (RAD): Qualified persons must wear appropriate PPE and use insulated tools.
+Arc Flash Boundary (AFB): Must be labeled on equipment; entry requires arc-rated PPE.

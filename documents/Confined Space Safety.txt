@@ -1,0 +1,180 @@
+
+Document: CS-UTL-2024 Rev 3.1
+
+Compliance Standards:
+
+
+OSHA 1910.146 (Permit-Required Confined Spaces)
+
+ANSI Z117.1 Safety Requirements
+
+NIOSH Publication 80-106
+
+1. Confined Space Identification
+Defining Characteristics:
+
+
+Limited entry/exit points
+
+Not designed for continuous occupancy
+
+Potential atmospheric hazards
+Common Utility Examples:
+
+Transformers >50 kVA
+
+Manholes >4 ft deep
+
+Combustion turbine housings
+
+Sewer lift stations
+
+Stormwater vaults
+
+2. Classification System
+Non-Permit Space:
+
+
+Criteria: No atmospheric hazards, no engulfment risk
+
+Example: Clean dry transformer vaults
+Permit-Required Space:
+
+Class A: Immediately Dangerous to Life/Health (IDLH)
+
+Class B: Potential hazardous atmosphere
+
+Class C: Engulfment/configuration hazards
+
+3. Atmospheric Testing Protocol (Pre-Entry)
+Testing Sequence:
+
+
+Oxygen: 19.5%-23.5%
+
+LEL: <10% lower explosive limit
+
+Toxins:
+CO < 25 ppm
+H₂S < 10 ppm
+Equipment:
+
+
+Calibrated 4-gas meter (bump-tested daily)
+
+Remote samplers with 10 ft probe
+Fail Response:
+
+Immediate evacuation if:
+• O₂ <19.5% or >23.5%
+• LEL >10%
+• H₂S >15 ppm
+
+4. Ventilation Requirements
+Mechanical Ventilation:
+
+
+Mandatory for Permit Spaces
+
+Rate: Minimum 20 air changes/hour
+
+Position: Supply fresh air near entrants
+Prohibited:
+
+Oxygen enrichment (>23.5%)
+
+Recirculating ventilation systems
+
+5. Entry Permit Components
+Mandatory Fields:
+
+
+Space ID (e.g., "Manhole #37-B")
+
+Entry purpose/duration
+
+Atmospheric test results
+
+Attendant(s) and entrant(s) names
+
+Rescue service contact
+Validity Period:
+
+Normal: 8 hours max
+
+IDLH: 15 minutes (emergency entry only)
+
+6. Rescue Equipment
+Minimum Configuration:
+
+
+Tripod with mechanical winch (1,500 lb capacity)
+
+Full-body harness with dorsal attachment
+
+Air-supply respirators (30-minute bottles)
+
+Spinal board with head immobilizer
+Location:
+
+Within 25 ft of entry point
+
+Rescuer accessibility <10 seconds
+
+7. Prohibited Practices
+Extreme-Risk Violations:
+
+
+Testing atmospheres with flame safety lamps
+
+Entering Class A spaces without SCBA
+
+Ventilation using vehicle exhaust
+
+Solo entries (always 2+ person team)
+
+8. Training Requirements
+Initial Certification:
+
+
+24 hours classroom/practical training
+
+Mock rescue scenarios
+Refresher Training:
+
+Annual 8-hour update
+
+Equipment drills every 90 days
+Records:
+
+Certificates valid 3 years
+
+Agency: ANSI Z117.1 accredited provider
+
+9. Critical Abbreviations
+
+LEL: Lower Explosive Limit
+
+IDLH: Immediately Dangerous to Life/Health
+
+SCBA: Self-Contained Breathing Apparatus
+
+PPM: Parts Per Million
+
+OSHA: Occupational Safety and Health Administration
+
+NIOSH: National Institute for Occupational Safety and Health
+
+10. Rescue Alert Matrix
+plain
+
+Situation: Atmospheric Failure  
+1. Sound evacuation alarm  
+2. Activate ventilation  
+3. Deploy retrieval system  
+
+Situation: Entrant Unresponsive  
+1. Verify space status  
+2. Rescue team entry with SCBA  
+3. Stabilize on spinal board  
+Implementation Date: April 15, 2024

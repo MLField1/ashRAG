@@ -1,0 +1,83 @@
+
+1. Purpose
+This document outlines the standard procedures for testing and maintaining circuit breakers in electrical utility environments. The goal is to ensure operational reliability, safety, and compliance with regulatory standards.
+
+2. Scope
+Applies to all medium and high-voltage circuit breakers used in substations, switchyards, and industrial facilities. Includes air, vacuum, SF6, and oil circuit breakers.
+
+3. Safety Precautions
+- De-energize and isolate the breaker before testing.
+- Follow lockout/tagout (LOTO) procedures.
+- Use appropriate PPE including arc-rated clothing, gloves, and face shields.
+- Verify absence of voltage using approved test equipment.
+- Ensure test equipment is properly grounded.
+
+4. Types of Circuit Breakers
+- Air Circuit Breakers (ACB)
+- Vacuum Circuit Breakers (VCB)
+- SF6 Gas Circuit Breakers
+- Oil Circuit Breakers
+
+5. Types of Tests
+5.1 Insulation Resistance Test
+- Measures insulation integrity between phases and to ground.
+
+5.2 Contact Resistance Test
+- Evaluates the resistance across closed contacts to detect wear or contamination.
+
+5.3 Timing Test
+- Measures opening and closing times of breaker contacts.
+
+5.4 Mechanical Operation Test
+- Verifies mechanical integrity and operation of the breaker mechanism.
+
+5.5 SF6 Gas Analysis (for SF6 breakers)
+- Checks gas pressure, moisture content, and purity.
+
+6. Test Procedures
+6.1 Insulation Resistance Test
+- Use a 5kV or 10kV megohmmeter.
+- Disconnect control wiring.
+- Measure phase-to-phase and phase-to-ground resistance.
+- Acceptable values typically >1000 MΩ.
+
+6.2 Contact Resistance Test
+- Use a micro-ohmmeter (100A or higher).
+- Connect leads across breaker contacts.
+- Record resistance; typical values <100 µΩ.
+
+6.3 Timing Test
+- Use a breaker analyzer.
+- Connect sensors to trip and close coils.
+- Record open/close times and compare with manufacturer specs.
+
+6.4 Mechanical Operation Test
+- Manually or electrically operate the breaker.
+- Observe for smooth operation, unusual noise, or binding.
+- Lubricate moving parts as needed.
+
+6.5 SF6 Gas Analysis
+- Use a gas analyzer.
+- Sample gas from breaker tank.
+- Record pressure, moisture (ppm), and SF6 purity (%).
+
+7. Equipment Required
+- Digital insulation resistance tester
+- Micro-ohmmeter
+- Circuit breaker analyzer
+- SF6 gas analyzer
+- Torque wrench and hand tools
+- PPE and grounding equipment
+
+8. Documentation
+- Record all test results in maintenance logs.
+- Include date, technician name, equipment ID, and test values.
+- Note any corrective actions taken.
+- Maintain records for regulatory compliance and trend analysis.
+
+9. Training
+- Personnel must be trained in high-voltage safety and test equipment use.
+- Refresher training required every 2 years.
+- Only qualified technicians may perform testing on energized systems.
+
+End of Document

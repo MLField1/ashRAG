@@ -1,0 +1,158 @@
+
+Document: FR-UTL-2023 Rev 1.3
+
+Compliance Standards:
+
+
+NFPA 70E: National Fire Protection Association Standard for Electrical Safety
+
+ASTM F1506: Standard Performance Specification for Flame-Resistant Textiles
+
+IEEE 1584: Guide for Performing Arc-Flash Hazard Calculations
+
+1. Hazard Risk Category (HRC) Classification
+(HRC = Numeric level indicating arc-flash risk severity)
+
+
+HRC 0
+
+Incident Energy: ≤1.2 cal/cm²
+
+Tasks: Voltage testing <50V, panel observations
+
+Required Clothing: Certified FR or 100% cotton clothing
+
+Minimum ATPV: N/A
+
+
+HRC 1
+
+Incident Energy: ≥4 cal/cm²
+
+Tasks: Circuit breaker operation <240V
+
+Required Clothing: Single-layer FR (4.5-5 oz/yd² weight)
+
+Minimum ATPV: 5 cal/cm²
+
+
+HRC 2
+
+Incident Energy: ≥8 cal/cm²
+
+Tasks: MCC maintenance, 480V switching
+
+Required Clothing: Medium-weight FR + balaclava
+
+Minimum ATPV: 8 cal/cm²
+
+
+HRC 3
+
+Incident Energy: ≥25 cal/cm²
+
+Tasks: >5kV equipment work, substation racking
+
+Required Clothing: Multi-layer FR system + flash hood
+
+Minimum ATPV: 25 cal/cm²
+
+
+HRC 4
+
+Incident Energy: ≥40 cal/cm²
+
+Tasks: Transmission line >15kV, high-fault zones
+
+Required Clothing: Heavyweight FR suit + face shield
+
+Minimum ATPV: 40 cal/cm²
+
+
+2. Material Specifications
+(ATPV = Arc Thermal Performance Value)
+
+(cal/cm² = calories per square centimeter)
+
+Material - FR Cotton
+
+Weight - 4.5-5.0 oz/yd²
+
+ATPV Range - 5-6 cal/cm²
+
+HRC Suitability - HRC 1
+
+Material - Modacrylic Blend
+
+Weight - 6.0-7.0 oz/yd²
+
+ATPV Range - 8-12 cal/cm²
+
+HRC Suitability - HRC 2
+
+Material - ARAMID Blends
+
+Weight - 8.0+ oz/yd²
+
+ATPV Range - 25-40 cal/cm²
+
+HRC Suitability - HRC 3-4
+
+3. Layering Rules
+
+Prohibited: Synthetic/non-FR underlayers (polyester, nylon)
+
+Required Layering: FR-only base layers
+
+Protection Bonus: Double layers provide 120% higher ATPV
+Example: 5 cal single layer → 11 cal when doubled
+
+4. Mandatory Components
+
+All HRCs:
+• Arc-rated hard hat (ANSI Z89.1)
+• UV-protection safety glasses
+
+HRC 2+:
+• Leather glove protectors
+• EH-rated boots
+
+HRC 3+:
+• Voltage-rated insulated tools
+• Rubber matting
+
+HRC 4:
+• Full-face air-purifying respirator
+
+5. Abbreviations Key
+
+ATPV: Arc Thermal Performance Value - Burning prevention rating
+
+HRC: Hazard Risk Category - Protection level (0-4)
+
+NFPA: National Fire Protection Association
+
+ASTM: American Society for Testing and Materials
+
+cal/cm²: Calories per square centimeter - Incident energy measurement
+
+EH: Electrical Hazard rating for footwear
+
+6. Critical Requirements & Corrections
+
+Scenario: Using HRC 2 gear for 15kV breaker work
+Correction: Upgrade to ARAMID blend HRC 3 system
+
+Scenario: Synthetic shirt under FR coveralls
+Correction: Replace with FR-certified base layer
+
+Scenario: Faded FR labels/unverifiable gear
+Correction: Immediately remove from service
+
+7. Certification Checks
+
+Required garment labels:
+✓ Current ATPV/E₅₀ rating
+✓ NFPA 70E compliance statement
+✓ Manufacture date within 5 years
+✓ Flame-test certification to ASTM F1891

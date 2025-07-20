@@ -1,0 +1,90 @@
+
+
+1. Purpose
+This document outlines standardized procedures for testing power transformers in electrical utility environments. The goal is to ensure operational reliability, detect potential faults, and maintain regulatory compliance.
+
+2. Scope
+Applies to all maintenance personnel, field engineers, and testing contractors involved in the commissioning, routine maintenance, and diagnostic testing of distribution and power transformers.
+
+3. Safety Precautions
+- All testing personnel must wear appropriate PPE including arc-rated clothing, gloves, and face shields.
+- Confirm de-energization and grounding of the transformer before testing.
+- Use lockout/tagout (LOTO) procedures to isolate the transformer.
+- Verify test equipment calibration and insulation integrity before use.
+
+4. Types of Transformer Tests
+
+4.1 Insulation Resistance Test
+- Purpose: Assess insulation condition between windings and ground.
+- Equipment: Megohmmeter (500V to 5kV).
+- Procedure: Disconnect transformer from service, apply test voltage, record resistance values.
+- Acceptance Criteria: Typically >100 MΩ depending on voltage class.
+
+4.2 Turns Ratio Test (TTR)
+- Purpose: Verify correct winding ratios and detect shorted turns.
+- Equipment: Transformer Turns Ratio Tester.
+- Procedure: Connect test leads to primary and secondary windings, apply low voltage, measure ratio.
+- Acceptance Criteria: Within ±0.5% of nameplate ratio.
+
+4.3 Power Factor (Tan Delta) Test
+- Purpose: Evaluate insulation aging and moisture content.
+- Equipment: Power Factor Test Set.
+- Procedure: Apply test voltage to winding, measure power factor and capacitance.
+- Acceptance Criteria: <1% for new transformers; trending used for in-service units.
+
+4.4 Dissolved Gas Analysis (DGA)
+- Purpose: Detect internal arcing, overheating, and insulation breakdown.
+- Equipment: Gas Chromatograph (lab-based).
+- Procedure: Extract oil sample, analyze for key gases (H2, CH4, C2H2, etc.).
+- Interpretation: Use Duval Triangle or Rogers Ratio for fault diagnosis.
+
+4.5 Sweep Frequency Response Analysis (SFRA)
+- Purpose: Detect mechanical displacement of windings.
+- Equipment: SFRA Analyzer.
+- Procedure: Inject frequency sweep, compare response to baseline.
+- Acceptance Criteria: Deviations indicate mechanical deformation.
+
+4.6 Oil Quality Tests
+- Purpose: Assess dielectric strength, moisture, and acidity of insulating oil.
+- Tests: Dielectric Breakdown Voltage, Water Content (Karl Fischer), Acid Number.
+- Frequency: Annually or after fault events.
+
+5. Test Procedures
+
+5.1 Pre-Test Checklist
+- Review transformer nameplate and previous test records.
+- Confirm test equipment calibration.
+- Isolate and ground transformer.
+- Notify control center and obtain work permits.
+
+5.2 Test Execution
+- Follow manufacturer and IEEE/IEC standards for each test.
+- Record ambient temperature and humidity.
+- Perform tests in sequence to avoid re-energization between tests.
+
+5.3 Post-Test Activities
+- Remove grounds and restore transformer to service.
+- Analyze test results and compare with historical data.
+- Flag anomalies for engineering review.
+
+6. Equipment Required
+- Megohmmeter
+- TTR Tester
+- Power Factor Test Set
+- Oil Sampling Kit
+- SFRA Analyzer
+- Infrared Thermography Camera (optional)
+- PPE and grounding equipment
+
+7. Documentation
+- Use standardized test forms or digital test sheets.
+- Include test date, personnel, equipment serial numbers, and environmental conditions.
+- Archive results in asset management system.
+- Generate exception reports for abnormal findings.
+
+8. Training and Competency
+- Personnel must be certified in transformer testing procedures.
+- Annual refresher training required.
+- Hands-on training with test equipment mandatory for new hires.
+
+End of Document

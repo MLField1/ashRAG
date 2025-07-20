@@ -1,0 +1,184 @@
+
+Document: FG-ABBR-2024 Rev 1.0
+
+A. Regulatory & Standards Bodies
+
+CSA - Canadian Standards Association (e.g., CSA Z462 Electrical Safety)
+
+NERC - North American Electric Reliability Corporation (grid standards)
+
+AESO - Alberta Electric System Operator (provincial grid control)
+
+OHS - Occupational Health & Safety (provincial regulations)
+
+NFPA - National Fire Protection Association (NFPA 70E standards)
+
+B. Safety Procedures
+
+LOTO - Lockout/Tagout (energy isolation procedure)
+
+ATP - Abnormal Thermal Performance (condition requiring shutdown)
+
+GVC - Ground Verifying Cluster (grounding assembly)
+
+PPE - Personal Protective Equipment
+
+JHA - Job Hazard Analysis (pre-task risk assessment)
+
+C. Equipment & Systems
+
+FR - Flame-Resistant (arc-rated clothing)
+
+GFCI - Ground Fault Circuit Interrupter (shock protection)
+
+SCBA - Self-Contained Breathing Apparatus (arc blast/chemical events)
+
+Li-ion - Lithium-Ion (cold-rated batteries)
+
+SATCOM - Satellite Communication (backup during storms)
+
+D. Hazard Metrics
+
+cal/cm² - Calories per Square Centimeter (arc flash energy measurement)
+
+kV - Kilovolt (1,000 volts)
+
+kA - Kiloampere (1,000 amps, fault current rating)
+
+P x S = R - Probability × Severity = Risk (assessment formula)
+
+RC - Resistance-Capacitance (capacitor discharge timing)
+
+E. Weather Terms
+
+WC - Wind Chill (cold stress metric)
+
+UTC - Coordinated Universal Time (permit scheduling standard)
+
+ROW - Right-of-Way (utility corridor access)
+
+Arctic Diesel - Anti-gel diesel fuel (-40°C formulation)
+
+F. Grid Operations
+
+GCC - Grid Control Center (permit authority)
+
+SCADA - Supervisory Control and Data Acquisition (remote monitoring)
+
+EAP - Equipment Access Permit (substation entry)
+
+EIP - Energy Isolation Permit (LOTO validation)
+
+TBP - Temporary Bypass Permit (protection system override)
+
+G. Worker Classifications
+
+QP - Qualified Person (certified for electrical work)
+
+PI - Person-In-Charge (permit signatory)
+
+AHJ - Authority Having Jurisdiction (compliance enforcer)
+
+H. Critical Acronyms
+
+OFF/OPEN - Mandatory isolator position (valves/breakers/switches)
+
+CAT IV - Category IV (electrical test equipment rating)
+
+LWP - Line Work Permit (overhead line authorization)
+
+Twilight Protocol - Emergency permit for life-threatening hazards
+
+I. Measurement Units
+
+N·m - Newton-Meter (torque unit for clamps)
+
+Ω - Ohms (ground resistance measurement)
+
+AWG - American Wire Gauge (cable sizing)
+
+kPa - Kilopascal (hydraulic pressure unit)
+
+Field Reference Rules:
+
+
+BOLDED terms indicate life-critical procedures
+
+Italicized terms reference specific documents (e.g., BG-UTL-2024)
+
+Report undefined abbreviations to Safety Office for glossary updates
+
+Compliance: Aligned with all preceding safety standards
+
+J. Protective Relay ANSI Codes
+(IEEE C37.2 Standard)
+
+41. 50 - Instantaneous Overcurrent (lightning/bolted fault)
+
+42. 51 - Time Overcurrent (coordination for faults)
+
+50/51 - Combined instantaneous + time OC relay
+
+43. 27 - Undervoltage (loss of voltage protection)
+
+44. 59 - Overvoltage (surge/capacitor bank failure)
+
+45. 86 - Lockout Relay (initiates lockout after trip)
+
+46. 87 - Differential (internal faults: transformers/buses)
+
+87T = Transformer Differential | 87B = Bus Differential
+
+47. 25 - Synchronism Check (reclose verification)
+
+48. 32 - Directional Power (anti-motoring for generators)
+
+49. 67 - Directional Overcurrent (fault direction sensing)
+
+50. 79 - Autoreclose (auto line restoration)
+
+51. 85 - Carrier/Pilot Relay (communication-based protection)
+
+52. 21 - Distance Relay (transmission line zones)
+
+53. 81 - Frequency Relay (under/over frequency events)
+
+54. 49 - Thermal Overload (transformer/motor protection)
+
+55. 62 - Time-Delay Stop/Open (delayed tripping coordination)
+
+56. 850 - Lockout Relay Control Circuit Ref.(per LOTO-UTL-2024)
+
+Usage Example:
+
+
+GCC permits require disabling ANSI 79 before repairs. After LOTO, verify ANSI 86 is asserted and ANSI 50/51 settings match prints.
+
+
+Key Updates to Previous Sections:
+
+Added SAF in Safety Procedures:
+57. SAF - Switchgear Arc Flash (incident energy >40 cal/cm² protocol)
+
+Modified SCADA definition:
+58. SCADA - Includes relay status monitoring (ANSI codes 87/50/27)
+
+Field Notes for Relay Codes:
+
+
+Life-Critical References:
+86 = Must verify lockout state before LOTO (EIP Permits)
+27/59 = Pre-verification for capacitor work (BG-UTL-2024)
+
+Code Combinations:
+32 + 51 = Generator protection
+21 + 85 = Piloted line protection
+
+Compliance References:
+
+
+IEEE C37.2-2022 Standard Electrical Power System Device Function Numbers
+
+NFPA 70E 130.5 (arc flash labels showing relay coordination)
+
+GCC-PERMIT-2024 Annex D (relay bypass protocols)

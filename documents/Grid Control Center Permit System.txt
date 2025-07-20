@@ -1,0 +1,181 @@
+
+Document: GCC-PERMIT-2024 Rev 2.0
+
+Compliance Standards:
+
+
+NERC CIP-004 Critical Infrastructure Protection
+
+CSA Z460 Control of Hazardous Energy
+
+Provincial Utility Regulations (e.g., Alberta AESO)
+
+1. General Permit Rules
+
+Validity Period: 12 hours (non-renewable)
+
+Application Window:
+Routine: 48–4 hours pre-work
+Emergency: Real-time via GCC hotline
+
+Mandatory Attachments:
+Certified single-line diagram
+Hazard assessment record
+Crew certification licenses
+
+2. Permit Types & Application Triggers
+A. Equipment Access Permit (EAP)
+
+
+When Required:
+Entry into substations/switchyards
+Work within 3m of energized equipment (>60V)
+
+GCC Coordination:
+Switching schedule integration
+Anti-islanding verification
+
+B. Energy Isolation Permit (EIP)
+
+
+When Required:
+LOTO of transmission assets (>1kV)
+Capacitor bank maintenance
+
+Critical Requirement:
+Two-step verification (control center + local crew)
+
+C. Line Work Permit (LWP)
+
+
+When Required:
+Any overhead/underground line work
+Mobile work in ROW corridors
+
+GCC Actions:
+Remote grounding confirmation
+Fault current analysis
+
+D. Temporary Bypass Permit (TBP)
+
+
+When Required:
+Protection system overrides
+Bypassing relaying >5 minutes
+
+Conditions:
+Maximum duration: 4 hours
+Real-time SCADA monitoring required
+
+E. Generation Interconnect Permit (GIP)
+
+
+When Required:
+Synchronizing distributed resources
+Commissioning renewable tie-ins
+
+Prerequisite:
+Pre-energization phasing check
+
+3. Application Process
+Step 1: Pre-Submission
+
+
+Crew lead verifies:
+Correct work location GPS
+Equipment ID tags match diagrams
+
+Step 2: GCC Portal Entry
+
+
+Required Fields:
+Work start/end (UTC)
+Affected circuit numbers
+Person-In-Charge credentials
+
+Step 3: Control Center Validation
+
+
+Automated Checks:
+Ground status confirmation
+Switching conflicts
+Weather impact analysis
+
+Step 4: Permit Issuance
+
+
+Contains:
+Unique 12-digit authorization code
+Real-time compliance dashboard link
+Emergency shutdown sequence
+
+4. Emergency Permits
+Twilight Protocol (Immediate Danger):
+
+
+Voice request via GCC emergency channel
+
+Provisional clearance issued in <90 seconds
+
+Follow-up paperwork within 30 minutes
+
+Conditions for Use:
+
+
+Wildfire threat containment
+
+Critical public safety hazards
+
+Downed conductors on infrastructure
+
+5. Permit Violations & Suspensions
+Automatic Revocation Triggers:
+
+
+Work area expansion beyond permit scope
+
+Unscheduled asset energization
+
+Loss of communication >15 minutes
+
+Weather exceeding safety thresholds
+
+Consequences:
+
+
+Immediate remote disconnect ability
+
+72-hour work suspension
+
+Mandatory requalification training
+
+6. Permit Closeout Requirements
+Within 30 Minutes of Work Completion:
+
+
+Submit verification of:
+Ground removal confirmation
+Protection system restoration
+Site restoration photos
+
+GCC finalizes:
+Switching logs
+Operator clearance certificate
+
+Annex: Permit Decision Matrix
+
+code
+
+Work Type                 Voltage       Required Permit  
+------------------------------------------------------  
+Substation painting       <600V         EAP  
+Transmission LOTO         230kV         EIP + EAP  
+Relay calibration         25kV          TBP  
+Downed line repair        138kV         LWP + Twilight Protocol  
+Solar farm interconnect   34.5kV        GIP  
+Compliance:
+
+
+Aligns with NERC PER-003 Operational Reliability Standards
+
+Meets provincial requirements (BCUC Rule 17, AUC Rule 023)

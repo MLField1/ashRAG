@@ -1,0 +1,182 @@
+
+Document: BG-UTL-2024 Rev 3.0
+
+Compliance Standards:
+
+
+CSA Z462 Workplace Electrical Safety
+
+IEEE 1048 Grounding Methods
+
+NFPA 70E Article 310
+
+1. Definitions and Applications
+When to GROUND:
+
+
+De-energized equipment over 50V
+
+Capacitor banks after discharge
+
+Mobile generators exceeding 600V
+
+Temporary systems without permanent grounding
+
+When to BOND:
+
+
+Exposed conductive parts (conduit, enclosures, racks)
+
+Multiple work locations at same voltage potential
+
+Creating equipotential zones for worker protection
+
+2. Grounding Protocol (5-Step Process)
+
+Verify De-energization
+
+Use CAT IV 1000V-rated voltage tester
+Test phase-phase and phase-ground
+
+Establish Grounding Cluster
+
+Position grounds within 1 meter of work area
+Use triangular formation for multi-phase systems
+
+Apply Grounds
+
+Sequence: Ground point → Grounded conductor → Phases
+Secure hooks on clean bare metal
+
+Secure Connections
+
+Torque clamps to 50 N·m minimum
+Use thermite welding where vibration occurs
+
+Verify Continuity
+
+Confirm resistance under 1 ohm
+Measure with calibrated microhmmeter
+
+Electrically Safe Zone:
+
+
+Extends 0.6 meters from grounded equipment
+
+Zero voltage verified before entry
+
+3. Bonding Protocol for Equipotential Zones
+Applications:
+
+
+Steel lattice structures
+
+Multiple metallic platforms
+
+Conductive work surfaces above 300V
+
+Procedure:
+
+
+Use 2/0 AWG minimum copper cables
+
+Cross-bond adjoining conductive elements
+
+Measure under 25 milliohms resistance
+
+Maintain bonds until work completion
+
+4. Equipment Requirements
+Grounding Sets:
+
+
+Minimum rating: 40kA for 0.25 seconds
+
+Pass inspection if:
+Undamaged ferrules and clamps
+No strand damage exceeding 10%
+
+Fail if:
+Thermal discoloration present
+Cracks in connection points
+
+Clamps:
+
+
+Cold weather rated (-50°C minimum)
+
+Must achieve bare metal contact
+
+5. Protection Zone Specifications
+
+Ground mat resistance maximum: 0.15 ohms
+
+Voltage gradient test: 0 volts confirmed
+
+Personal protective boundary: 0.6 meter radius
+
+Ground clusters visible from work position
+
+6. Strict Prohibitions
+Grounding Prohibitions:
+
+
+Grounding downstream of disconnects
+
+Single-ground protection for systems over 600V
+
+Using equipment grounds for bonding
+
+Bonding Prohibitions:
+
+
+Bonding different voltage systems
+
+Exceeding manufacturer's cable length limits
+
+7. Documentation Requirements
+Field Checklist:
+
+
+Grounding diagram sketched and verified
+
+Cluster resistance tested and recorded (value in ohms)
+
+Equipotential bonds continuity confirmed
+
+Personal voltage detector used
+
+Sign-off: Lead Electrical Worker signature and credentials
+
+Record Retention: 3 years minimum
+
+8. Special Conditions
+Capacitive Circuits:
+
+
+Ground for longer than 4 time constants (RC)
+
+Test residual voltage under 50V
+High Voltage Transmission (over 115kV):
+
+Install gradient control mats
+
+Use multi-point grounding strategy
+Cold Weather Operations:
+
+Preheat clamps below -30°C
+
+Remove ice from contact surfaces
+
+Use bare-hand technique only when justified
+
+Compliance References:
+
+
+Ontario Regulation 213/91 Section 190
+
+IEEE Standard 524 Conductor Grounding
+
+CSA C22.1:21 Rule 10-100
+
+Implementation Date: Effective immediately upon issuance

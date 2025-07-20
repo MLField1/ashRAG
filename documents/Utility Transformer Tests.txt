@@ -1,0 +1,54 @@
+
+
+1. Turns Ratio Test
+Parameter           Pass Criteria                   Fail Criteria
+Ratio Deviation     Within ±0.5% of nameplate      Over ±0.5% deviation
+Phase Consistency   Under 1% phase imbalance       Over 1% phase imbalance
+Purpose: Verify primary-to-secondary voltage ratios match design specifications.
+
+2. Insulation Resistance Test
+Parameter             Pass Criteria            Fail Criteria
+HV-LV/Ground (1-min)  Above 1000 MΩ at 25°C    Below 100 MΩ or significant downward trend
+HV-LV Winding         Above 100 MΩ             Below 10 MΩ
+Temperature Effect    Within 20% after correction Deviation over 20% after correction
+Purpose: Assess dielectric integrity between windings/ground.
+
+3. Winding Resistance Test
+Parameter             Pass Criteria            Fail Criteria
+Phase Balance         Under 2% phase difference Over 2% phase difference
+Factory Baseline Dev. Within 3% of baseline    Over 5% deviation from baseline
+DC Resistance         Within manufacturer tolerance ±10% beyond manufacturer tolerance
+Purpose: Detect open circuits, loose connections, or winding deformations.
+
+4. Power Factor Test
+Parameter       Pass Criteria          Fail Criteria
+Overall PF      At or below 0.5%       Above 1.0%
+Annual Change   Under 0.2% increase    Over 0.3% increase
+Bushings        At or below 0.7%       Above 1.0%
+Purpose: Measure dielectric losses; high values indicate moisture/contamination.
+
+5. Excitation Current Test
+Parameter             Pass Criteria            Fail Criteria
+Phase Balance         Under 10% difference     Over 25% difference
+Deviation from Base   Within 15% of initial    Over 30% deviation
+Harmonic Pattern      Matches typical pattern  Abnormal harmonics present
+Purpose: Identify shorted turns or core defects via magnetizing current.
+
+6. Dielectric Withstand Tests
+Test              Pass Criteria                     Fail Criteria
+Applied Voltage   No collapse @65kV for 1 min      Breakdown or >5 mA leakage
+Induced Voltage   No collapse @400Hz for 7200 cyc  Breakdown, PD>100pC, audible noise
+Purpose: Validate insulation strength under overvoltage conditions.
+
+7. Transformer Oil Tests
+Test              Pass Criteria               Fail Criteria
+Breakdown Voltage Above 30kV new/25kV service Below 20kV
+DGA Gases         H₂<100ppm, C₂H₂<1ppm       H₂>700ppm or C₂H₂>5ppm
+Moisture Content  Below 35ppm at 50°C        Above 50ppm
+Purpose: Detect insulation degradation, arcing, or overheating via oil analysis.
+
+Key Notes:
+- Temperature: Correct IR and PF tests to 20°C baseline
+- Trending: Fail if ≥10% degradation from historical data
+- Standards: IEEE C57.12.00, IEC 60076, NETA MTS-2015
+- Immediate Fail: Smoke, loud discharge, or catastrophic breakdown

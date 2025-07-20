@@ -1,0 +1,170 @@
+
+Document: HRA-UTL-2024 Rev 1.0
+
+Compliance Standards:
+
+
+CSA Z1002-19 Hazard Identification and Risk Assessment
+
+ISO 45001:2018 Occupational Health and Safety
+
+OSHA 1910.132 Hazard Assessment
+
+1. Pre-Work Assessment Timeline
+Deadlines:
+
+
+Team assessments completed on-site before first task
+
+Individual valid: 1 shift (max 12 hours)
+
+Supervisor validation: Required for high-risk work
+Methodology:
+
+Site walk-through + task review
+
+3-Step System: Identify → Analyze → Control
+
+2. Mandatory Assessment Components
+Environmental Hazards Check:
+
+
+Temperature: Current ______ °C (Alert if >32°C or <-25°C)
+
+Wind: Speed ______ km/h (Stop work >60 km/h)
+
+Precipitation: [ ] Rain [ ] Ice [ ] Snow Depth ______ cm
+
+Visibility: ______ m (Minimum 150m for mobile equipment)
+
+Site-Specific Hazards:
+
+
+Overhead: [ ] Powerlines ‖ Clearance ______ m
+
+Underground: [ ] Marked utilities [ ] Unverified zones
+
+Terrain: [ ] Slopes >30° [ ] Trenches [ ] Unstable ground
+
+Human Factors:
+
+
+Fatigue level: [ ] Alert [ ] Moderate [ ] High (mandatory rest if high)
+
+Crew competence: [ ] Fully trained [ ] New hire supervision required
+
+3. Risk Scoring Matrix (P x S = R)**
+Probability (P):
+
+1: Improbable (<1%)
+
+2: Possible (1-20%)
+
+3: Likely (21-75%)
+
+4: Certain (>75%)
+
+Severity (S):
+
+1: Minor injury (first aid)
+
+2: Medical treatment
+
+3: Major injury (lost time)
+
+4: Fatality
+
+Risk (R) Action Thresholds:
+
+
+Green (1-4): Proceed
+
+Yellow (5-8): Implement controls
+
+Red (>9): Stop work
+
+4. High-Probability Utility Hazards
+Electrical:
+
+
+Arc flash risk [ ] Present ATPV ______ cal/cm²
+
+Unverified isolation [ ] LOTO complete [ ] Required
+Fall Risks:
+
+Height >1.2m without guardrail [ ] Yes [ ] No
+
+Roof work pitch >15° [ ] Present
+Environmental:
+
+Confined space entry [ ] Planned ATP ______ ppm
+
+Wildlife activity [ ] Recent sightings [ ] No
+
+5. Control Implementation Hierarchy
+
+Elimination: Remove hazard completely
+
+Substitution: Use safer method/equipment
+
+Engineering: Barriers/guards/ventilation
+
+Administrative: Training/procedures
+
+PPE: Final protective layer
+
+Mandatory Documentation:
+
+
+Control measures selected: ________________
+
+Backup control if primary fails: ____________
+
+6. Sign-Off Protocol
+Signatories:
+
+
+Lead worker (print): ______________
+
+Spotter/Safety Watch: ______________
+
+Supervisor (electronic approval): ______________
+Details Required:
+
+
+Time: ________
+
+GPS: 51.0447° N, 114.0719° W
+
+Re-assessment trigger: Conditions change | Break >2hr
+
+7. Critical Stop Work Triggers
+Immediately Halt Operations If:
+
+
+Unplanned energy source encounter
+
+Weather exceeds safe limits
+
+Hazard controls compromised
+
+PPE becomes ineffective
+
+Rescue access blocked
+
+8. Assessment Records Retention
+
+Digital copy: Upload within 2 hours
+
+Hard copy: Field copy in weatherproof case
+
+Storage: 7 years minimum
+
+Audit frequency: Quarterly random checks
+
+Compliance Standards:
+
+
+Alberta OHS Code Section 9
+
+Saskatchewan Employment Act Sec 3-16

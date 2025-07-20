@@ -1,0 +1,36 @@
+{
+  "num_chunks": 143,
+  "embedding_dim": 768,
+  "model_name": "BAAI/bge-base-en-v1.5",
+  "source_files": [
+    "Utility Fall Protection Safety.txt",
+    "Flame-Resistant (FR) Clothing.txt",
+    "Polarization Index (PI) and Doble Test Stator_Rotor Systems.txt",
+    "Working Alone Safety Standard.txt",
+    "Confined Space Safety.txt",
+    "Utility Electrical Safety Standard.txt",
+    "Transformer_Testing_Procedures.txt",
+    "Daily Hazard and Risk Assessment.txt",
+    "Prairie Extreme Weather Safety.txt",
+    "Utility Circuit Breaker Tests.txt",
+    "Electrical Bonding and Grounding.txt",
+    "Utility Field Operations Terms.txt",
+    "Minimum Approach Distance (MAD).txt",
+    "Utility Transformer Tests.txt",
+    "Grid Control Center Permit System.txt",
+    "Circuit_Breaker_Testing_and_Maintenance_Procedures.txt",
+    "CFR 1910.147 Texas LOTO Procedures.txt"
+  ],
+  "created_at": "2025-07-20 00:17:47",
+  "hardware_tier": "HIGH",
+  "optimized_for": "12CPU_NVIDIA GeForce RTX 2060",
+  "safety_statistics": {
+    "HIGH": 71,
+    "MEDIUM": 60,
+    "LOW": 12
+  },
+  "average_safety_score": 2.620581923268941,
+  "chunking_strategy": "recursive_with_overlap",
+  "chunk_size": 128,
+  "chunk_overlap": 16
+}

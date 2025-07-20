@@ -1,0 +1,134 @@
+
+Document: FP-UTL-2024 Rev 2.0
+
+Compliance Standards:
+
+
+OSHA 1926 Subpart M
+
+ANSI Z359 Fall Protection Code
+
+IEEE 1307 Utility Specific Requirements
+
+1. Fall Hazard Classifications
+Pole/Tower Work:
+
+
+Height Threshold: >4 ft above ground
+
+Required System: PFAS + dual lanyards
+Aerial Devices:
+
+Height Threshold: Any elevated position
+
+Required System: Bucket restraints + body belt
+Transmission Structures:
+
+Height Threshold: All work above 6 ft
+
+Required System: Horizontal lifeline + shock-absorbing lanyard
+
+2. Personal Fall Arrest System (PFAS) Requirements
+Harness:
+
+
+Type: ANSI Z359.11 full-body harness
+
+Pass Criteria: D-rings intact, webbing free of cuts/abrasions
+
+Fail Criteria: Frayed webbing, distorted hardware, chemical exposure
+Lanyards:
+
+Type: Shock-absorbing, 6 ft max length
+
+Pass: Energy absorber packed, 100% webbing integrity
+
+Fail: Deployed absorber, signs of impact loading
+
+3. Anchor Point Specifications
+Wood Poles:
+
+
+Strength Requirement: 5,000 lb capacity
+
+Acceptable: Crossarm brace, pole band anchors
+
+Prohibited: Nail cleats alone
+Steel Structures:
+
+Strength Requirement: 100 kN tested
+
+Acceptable: Certified davit arms, structural beams
+
+Prohibited: Pipe rails, unrated equipment
+
+4. Clearance Calculations
+Critical Formula:
+
+Total Fall Distance = Lanyard Length + Deceleration Distance + Safety Factor + Worker Height
+
+Minimum Clearance:
+
+
+Bucket Trucks: 2 ft below boom
+
+Lattice Towers: 12.5 ft (with shock absorber)
+
+5. Equipment Inspection Protocol
+Daily Checks (Worker):
+
+
+Pass Criteria: Stitching intact, labels legible, snaps lock
+
+Fail Actions: Remove from service immediately if signs of damage
+Certified Inspection (Q6 months):
+
+Pass Criteria: Documentation, load testing verification
+
+Fail Criteria: Evidence of UV degradation
+
+Required Stamp: ANSI Z359.2 compliant inspection tag
+
+6. Rescue Requirements
+Response Time:
+
+
+Mandatory: Rescue within 5 minutes of fall event
+Equipment:
+
+Location: Rescue kits within 300 ft of elevated work
+
+Contents: Biolite 4:1 pulley (or equivalent), stretcher, trauma straps
+
+7. Training & Certification
+Annual Requirements:
+
+
+Practical: Transfer techniques on live structures
+
+Classroom: OSHA 1926 Subpart M refresher
+Certification:
+
+Documentation: ANSI Z359.2 trainer certification
+
+Renewal: 3 year intervals
+
+8. Critical Failure Scenarios
+High-Risk Violations:
+
+
+Error: Using positioning lanyard as fall arrest
+
+Correction: Replace with dual-certified shock-absorbing lanyard
+
+Error: Anchor below dorsal D-ring
+
+Correction: Anchor always at/shoulder level
+
+9. Standards Reference
+
+OSHA 1926.104: Lanyard strength requirements
+
+ANSI Z359.12: Connector specifications
+
+IEEE 1307-2010: Utility climbing best practices

@@ -1,0 +1,198 @@
+
+Document: PW-PRAIRIE-2024 Rev 1.0
+
+Compliance Standards:
+
+
+CSA Z1000-14 Occupational Health & Safety
+
+Environment Canada Wind Chill Index
+
+Alberta OHS Code Part 16: Heat & Cold Stress
+
+1. Extreme Temperature Thresholds
+Heat Stress Activation:
+
+
+Start protocols at 28°C when wearing PPE or 32°C without PPE
+
+Full activation at 40°C (all activities restricted)
+Cold Stress Activation:
+
+Initiate protocols at -20°C with wind chill factor
+
+Critical activation at -40°C (emergency operations only)
+
+2. Prairie-Specific Work Scheduling
+Summer Protocols (35°C to 40°C):
+
+
+Primary work window: 0500-1000
+
+Restricted activities: 1000-1800 (shaded/critical tasks only)
+
+Evening operations: Light duties after 1900
+
+Hydration: 300mL electrolyte solution every 20 minutes
+
+Winter Protocols (-30°C to -40°C):
+
+
+-30 to -40°C: Maximum 15-minute exposure intervals
+
+Below -40°C: Work cessation except life-critical repairs
+
+Mandatory heated vehicle on-site at all times
+
+3. Protective Systems
+-40°C Clothing System:
+
+
+Layer 1: Moisture-wicking thermal base (silk or polypropylene)
+
+Layer 2: Heavy fleece insulation (400 grams per square meter)
+
+Layer 3: Insulated flame-resistant overalls
+
+Layer 4: Windproof parka (CSA Class 3A, rated to -50°C)
+
+Accessories: Balaclava + neoprene face mask
+
++40°C Cooling System:
+
+
+Phase Change Material vest (replaceable ice packs)
+
+Evaporative cooling neck gaiter
+
+Hard hat with 10+ cm brim attachment
+
+Ultraviolet-protective sleeves (CSA certified)
+
+4. Equipment Requirements
+Winterization (-40°C):
+
+
+Vehicles require engine block heaters below -25°C
+年 Must use Arctic-grade diesel fuel (anti-gel formulation)
+
+Tools must use cold-rated steel (prevent brittle fracture)
+
+Battery-powered equipment requires thermal blankets
+
+Heat Mitigation (+40°C):
+
+
+Insulated tool handles (prevent contact burns)
+
+Cooled storage for electronic equipment
+
+Reflective vehicle/trailer surfaces
+
+5. Health Monitoring
+Cold Exposure Limits:
+
+
+-25 to -30°C: 30-minute maximum exposure (warm breaks every 15 min)
+
+-31 to -39°C: 20-minute maximum exposure (buddy system mandatory)
+
+-40°C and below: 10-minute maximum exposure (medical standby required)
+
+Heat Stress Prevention:
+
+
+Continuous core temperature monitoring (wearable sensors)
+
+Mandatory 30-minute AC recovery if core reaches 38.5°C
+
+6. Emergency Protocols
+Whiteout Conditions:
+
+
+Travel prohibited when visibility <400m at -25°C
+
+Survival kits must include:
+Insulated shelter tent (-40°C rated)
+Chemical warmers (6+ hour duration)
+
+Extreme Heat Events:
+
+
+Cooling stations within 300m of work areas
+
+Ice immersion kits for heat stroke treatment
+
+7. Prohibited Activities
+Below -35°C Restrictions:
+
+
+Climbing steel structures
+
+Exposing skin >2 minutes
+
+Solo work beyond 500m from vehicle
+
+Above 38°C Restrictions:
+
+
+Confined space entry
+
+Flame-resistant gear without active cooling
+
+Asphalt operations between 1100-1900
+
+8. Training Requirements
+Specialized Modules:
+
+
+Frostbite recognition (-30°C simulation)
+
+Heat collapse response (40°C environment training)
+
+Whiteout navigation (GPS/compass proficiency)
+Certifications:
+
+Red Cross Advanced Wilderness First Aid
+
+CSA-approved extreme weather competency
+
+9. Unique Prairie Conditions
+Chinook Wind Protocol:
+
+For rapid temperature increases (+20°C/+hr):
+
+
+Monitor for thermal shock symptoms
+
+Adjust hydration and PPE within 15 minutes
+
+Cardiac screening for at-risk workers
+
+10. Communication Standards
+Winter Communications (-40°C):
+
+
+Satellite phones with cold-rated batteries
+
+Glove-compatible keypads
+
+Redundant notification systems
+
+Summer Communications (+40°C):
+
+
+Explosion-proof UHF radios
+
+Solar-resistant casings
+
+Emergency alerts via multiple channels
+
+Compliance Documentation:
+
+
+Alberta OHS Code Section 16.8
+
+Saskatchewan Employment Act Part III
+
+Manitoba Workplace Safety Regulation WS210
