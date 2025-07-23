@@ -1,0 +1,94 @@
+2025-06-03 22:09:01,499 - __main__ - INFO - Initialized DocumentProcessor
+2025-06-03 22:09:01,499 - __main__ - INFO - Loading embedding model: BAAI/bge-small-en-v1.5
+2025-06-03 22:09:01,500 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-03 22:09:01,501 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-06-03 22:09:07,002 - __main__ - INFO - RAG System initialized
+2025-06-03 22:09:07,017 - __main__ - INFO - Loaded existing index
+2025-06-03 22:18:14,358 - __main__ - INFO - Initialized DocumentProcessor
+2025-06-03 22:18:14,368 - __main__ - INFO - Loading embedding model: BAAI/bge-small-en-v1.5
+2025-06-03 22:18:14,369 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-03 22:18:14,370 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-06-03 22:18:17,435 - __main__ - INFO - ✓ Embedding model loaded successfully
+2025-06-03 22:18:19,506 - __main__ - INFO - ✓ Ollama connected, model llama3.2:3b available
+2025-06-03 22:18:19,507 - __main__ - INFO - RAG System initialized
+2025-06-03 22:18:19,512 - __main__ - INFO - ✓ Loaded vector store: 12 chunks
+2025-06-03 22:18:19,512 - __main__ - INFO - Loaded existing index
+2025-06-03 22:50:46,016 - __main__ - INFO - Initialized DocumentProcessor
+2025-06-03 22:50:46,017 - __main__ - INFO - Loading embedding model: BAAI/bge-small-en-v1.5
+2025-06-03 22:50:46,019 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-03 22:50:46,019 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-06-03 22:50:51,121 - __main__ - INFO - Loaded 0 cached queries
+2025-06-03 22:50:51,121 - __main__ - INFO - Cache system initialized
+2025-06-03 22:50:51,121 - __main__ - INFO - RAG System initialized
+2025-06-03 22:50:51,126 - __main__ - INFO - Loaded existing index
+2025-06-04 21:50:43,467 - __main__ - INFO - Initialized DocumentProcessor
+2025-06-04 21:50:43,467 - __main__ - INFO - Loading embedding model: BAAI/bge-small-en-v1.5
+2025-06-04 21:50:43,468 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-04 21:50:43,468 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-06-04 21:50:49,580 - __main__ - INFO - Loaded 4 cached queries
+2025-06-04 21:50:49,580 - __main__ - INFO - Cache system initialized
+2025-06-04 21:50:49,581 - __main__ - INFO - RAG System initialized
+2025-06-04 21:50:49,589 - __main__ - INFO - Loaded existing index
+2025-06-04 21:55:37,319 - __main__ - INFO - Initialized DocumentProcessor
+2025-06-04 21:55:37,320 - __main__ - INFO - Loading embedding model: BAAI/bge-small-en-v1.5
+2025-06-04 21:55:37,321 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-04 21:55:37,321 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-06-04 21:55:40,658 - __main__ - INFO - OK - Embedding model loaded successfully
+2025-06-04 21:55:42,694 - __main__ - INFO - OK - Ollama connected, model llama3.2:3b available
+2025-06-04 21:55:42,698 - __main__ - INFO - Loaded 4 cached queries
+2025-06-04 21:55:42,699 - __main__ - INFO - Cache system initialized
+2025-06-04 21:55:42,699 - __main__ - INFO - RAG System initialized
+2025-06-04 21:55:42,707 - __main__ - INFO - OK - Loaded vector store: 12 chunks
+2025-06-04 21:55:42,709 - __main__ - INFO - Loaded existing index
+2025-06-04 21:58:50,793 - __main__ - INFO - Exact cache hit!
+2025-06-04 21:58:53,532 - __main__ - INFO - Exact cache hit!
+2025-06-04 21:59:05,985 - __main__ - INFO - Exact cache hit!
+2025-06-04 21:59:12,443 - __main__ - INFO - Semantic cache hit! Similarity: 0.850
+2025-06-04 22:11:33,845 - __main__ - INFO - No GPU available, using CPU
+2025-06-04 22:11:33,850 - __main__ - INFO - RAG System initialized in 0.01s
+2025-06-04 22:11:33,852 - __main__ - INFO - Loaded 6 cached queries
+2025-06-04 22:11:33,859 - __main__ - INFO - OK - Loaded vector store in 0.01s: 12 chunks
+2025-06-04 22:11:35,898 - __main__ - INFO - OK - Ollama connected, model llama3.2:3b available
+2025-06-04 22:12:30,183 - __main__ - INFO - Loading embedding model: BAAI/bge-small-en-v1.5 on cpu
+2025-06-04 22:12:30,186 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-06-04 22:14:21,990 - __main__ - INFO - OK - Model loaded in 111.81s on cpu
+2025-06-04 22:14:42,652 - __main__ - INFO - Exact cache hit!
+2025-06-04 22:18:20,443 - __main__ - INFO - Exact cache hit!
+2025-06-04 22:31:38,356 - __main__ - INFO - GPU detected: NVIDIA GeForce RTX 2060
+2025-06-04 22:31:38,361 - __main__ - INFO - RAG System initialized in 0.01s
+2025-06-04 22:31:38,362 - __main__ - INFO - Loaded 6 cached queries
+2025-06-04 22:31:38,366 - __main__ - INFO - OK - Loaded vector store in 0.00s: 12 chunks
+2025-06-04 22:31:40,418 - __main__ - INFO - OK - Ollama connected, model llama3.2:3b available
+2025-06-04 22:31:54,462 - __main__ - INFO - Loading embedding model: BAAI/bge-small-en-v1.5 on cuda
+2025-06-04 22:31:54,464 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-06-04 22:31:57,809 - __main__ - INFO - OK - Model loaded in 3.35s on cuda (VRAM: 127.3MB)
+2025-06-04 22:36:52,208 - __main__ - INFO - GPU detected: NVIDIA GeForce RTX 2060 (6144MB)
+2025-06-04 22:36:52,286 - __main__ - INFO - GPU test successful: cuda:0
+2025-06-04 22:36:52,288 - __main__ - INFO - RAG System initialized in 0.08s
+2025-06-04 22:36:52,289 - __main__ - INFO - Loaded 6 cached queries
+2025-06-04 22:36:52,293 - __main__ - INFO - OK - Loaded vector store in 0.00s: 12 chunks
+2025-06-04 22:36:54,268 - __main__ - INFO - OK - Ollama connected, model llama3.2:3b available
+2025-06-04 22:38:03,131 - __main__ - INFO - Loading embedding model: BAAI/bge-small-en-v1.5
+2025-06-04 22:38:03,131 - __main__ - INFO - Target device: cuda:0
+2025-06-04 22:38:03,132 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-06-04 22:38:06,399 - __main__ - INFO - GPU encoding test successful
+2025-06-04 22:38:06,399 - __main__ - INFO - ✅ Model loaded in 3.07s on cuda:0 (VRAM: 127.3MB)
+2025-06-04 22:38:34,071 - __main__ - INFO - Exact cache hit!
+2025-06-07 19:43:32,087 - __main__ - INFO - Exact cache hit!
+2025-06-07 20:00:57,708 - __main__ - INFO - GPU detected: NVIDIA GeForce RTX 2060 (6144MB)
+2025-06-07 20:00:57,716 - __main__ - INFO - 🔥 Warming Ollama model for fast TTFT...
+2025-06-07 20:00:57,914 - __main__ - INFO - GPU test successful: cuda:0
+2025-06-07 20:00:57,914 - __main__ - INFO - Loading embedding model: BAAI/bge-small-en-v1.5
+2025-06-07 20:00:57,914 - __main__ - INFO - Target device: cuda:0
+2025-06-07 20:00:57,916 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-06-07 20:00:59,752 - __main__ - INFO - 🔥 Ollama connected, model llama3.2:3b available
+2025-06-07 20:01:03,140 - __main__ - INFO - GPU encoding test successful
+2025-06-07 20:01:03,140 - __main__ - INFO - ✅ Model loaded in 4.95s on cuda:0 (VRAM: 127.3MB)
+2025-06-07 20:01:03,141 - __main__ - INFO - 🔥 Warming embedding model for fast TTFT...
+2025-06-07 20:01:03,224 - __main__ - INFO - 🔥 Model warmed in 0.08s - Ready for fast queries!
+2025-06-07 20:01:03,226 - __main__ - INFO - RAG System initialized in 5.52s
+2025-06-07 20:01:03,245 - __main__ - INFO - Loaded 6 cached queries
+2025-06-07 20:01:03,245 - __main__ - INFO - OK - Loaded vector store in 0.02s: 12 chunks
+2025-06-07 20:01:03,990 - __main__ - INFO - 🔥 Model keep-alive set to 24h
+2025-06-07 20:01:05,229 - __main__ - INFO - 🔥 Ollama warmed in 7.51s - Ready for fast generation!
+2025-06-07 20:04:07,891 - __main__ - INFO - Exact cache hit!

@@ -157,3 +157,16 @@ Edit `rag_config.json` to customize:
 ## License
 
 This project is provided for educational use. Please ensure compliance with your institution's policies when using with copyrighted educational materials.
+
+## Contributing
+
+Contributions are welcome. Please focus on:
+
+- Educational use case improvements
+- Hardware compatibility enhancements
+- Documentation quality
+- Performance optimizations
+
+## Support
+
+For issues related to setup or usage, please check the troubleshooting section or create an issue with your system specifications and error details.

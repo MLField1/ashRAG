@@ -73,17 +73,51 @@ class HardwareDetector:
     def __init__(self):
         self.hardware_info = self._detect_hardware()
         self.optimal_params = self._calculate_optimal_parameters()
+        
+        
+        
+    def _parse_cpu_frequency_from_brand(self, cpu_brand: str, cpu_count: int) -> float:
+        """Simple frequency extraction from CPU brand string"""
+        
+        
+        # Look for frequency patterns in the CPU name
+        frequency_patterns = [
+            r'@\s*(\d+\.?\d*)\s*GHz',     # "@ 2.60GHz" 
+            r'(\d+\.?\d*)\s*GHz',         # "2.6GHz" anywhere in string
+            r'(\d+\.?\d*)\s*G\s*Hz',      # "2.6 G Hz" with spaces
+        ]
+        
+        for pattern in frequency_patterns:
+            match = re.search(pattern, cpu_brand, re.IGNORECASE)
+            if match:
+                try:
+                    freq_ghz = float(match.group(1))
+                    freq_mhz = freq_ghz * 1000
+                    logger.info(f"Extracted {freq_ghz}GHz from CPU name: '{cpu_brand}'")
+                    return freq_mhz
+                except ValueError:
+                    continue
+        
+        # If no frequency found in name, fall back to original logic
+        if any(model in cpu_brand.upper() for model in ['I9', 'RYZEN 9']):
+            return 4500.0  # High-end CPUs
+        elif any(model in cpu_brand.upper() for model in ['I7', 'RYZEN 7']):
+            return 4000.0  # Upper mid-range CPUs  
+        elif any(model in cpu_brand.upper() for model in ['I5', 'RYZEN 5']):
+            return 3500.0  # Mid-range CPUs
+        elif cpu_count >= 8:
+            return 3000.0  # Multi-core, assume decent
+        elif cpu_count >= 4:
+            return 2500.0  # Quad-core
+        else:
+            return 2000.0  # Low-end
 
     def _detect_hardware(self) -> HardwareInfo:
-        """Comprehensive hardware detection"""
-        logger.info("🔍 Detecting hardware capabilities...")
-
         # CPU Detection
         cpu_count = psutil.cpu_count(logical=True)
         cpu_freq = psutil.cpu_freq()
-        cpu_freq_max = cpu_freq.max if cpu_freq else 0.0
-
-        # Get CPU brand (simplified)
+        
+        # Get CPU brand first
         try:
             if platform.system() == "Windows":
                 import subprocess
@@ -100,6 +134,14 @@ class HardwareDetector:
                         cpu_brand = "Unknown"
         except:
             cpu_brand = f"{platform.processor()} ({cpu_count} cores)"
+
+        # FIXED: Smart frequency detection
+        if cpu_freq and cpu_freq.max:
+            cpu_freq_max = cpu_freq.max
+        else:
+            # Parse frequency from CPU brand string
+            cpu_freq_max = self._parse_cpu_frequency_from_brand(cpu_brand, cpu_count)
+            logger.info(f"Parsed CPU frequency from brand: {cpu_freq_max:.1f}GHz")
 
         # Memory Detection
         memory = psutil.virtual_memory()
