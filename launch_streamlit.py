@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Simple launcher script for the RAG Streamlit app
+Simple launcher script for the RAG Streamlit app with llama.cpp support
 """
 
 import subprocess
@@ -17,7 +17,8 @@ def check_requirements():
         'pandas',
         'sentence-transformers',
         'numpy',
-        'requests'
+        'requests',
+        'llama-cpp-python'
     ]
 
     missing_packages = []
@@ -34,6 +35,8 @@ def check_requirements():
             print(f"   - {pkg}")
         print("\n📦 Install missing packages with:")
         print(f"pip install {' '.join(missing_packages)}")
+        print("\n💡 For GPU support (NVIDIA), use:")
+        print('CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python')
         return False
 
     return True
@@ -41,7 +44,7 @@ def check_requirements():
 
 def setup_directories():
     """Create necessary directories"""
-    directories = ['documents', 'data', 'cache']
+    directories = ['documents', 'data', 'cache', 'models']
 
     for dir_name in directories:
         dir_path = Path(dir_name)
@@ -50,36 +53,38 @@ def setup_directories():
             print(f"📁 Created directory: {dir_path}")
 
 
-def check_ollama():
-    """Check if Ollama is running"""
-    try:
-        import requests
-        response = requests.get("http://localhost:11434/api/tags", timeout=5)
-        if response.status_code == 200:
-            models = response.json().get('models', [])
-            print(f"🦙 Ollama is running with {len(models)} models")
-
-            # Check for required model
-            model_names = [model['name'] for model in models]
-            if 'llama3.2:3b' not in model_names:
-                print("⚠️  Required model 'llama3.2:3b' not found")
-                print("📥 Run: ollama pull llama3.2:3b")
-            else:
-                print("✅ Required model 'llama3.2:3b' is available")
-            return True
-        else:
-            print("❌ Ollama server responded with error")
-            return False
-    except Exception as e:
-        print("❌ Ollama is not running or not accessible")
-        print("🚀 Start Ollama with: ollama serve")
+def check_llama_model():
+    """Check if llama.cpp model is available"""
+    models_path = Path("models")
+    
+    if not models_path.exists():
+        print("❌ Models directory not found")
+        print("📁 Creating models directory...")
+        models_path.mkdir(parents=True, exist_ok=True)
+    
+    # Check for GGUF files
+    gguf_files = list(models_path.glob("*.gguf"))
+    
+    if not gguf_files:
+        print("❌ No GGUF model files found in models/")
+        print("📥 Please download a GGUF model file, for example:")
+        print("   - Llama-3.2-3B-Instruct-Q4_K_M.gguf")
+        print("   - Place it in the models/ directory")
+        print("\n💡 You can download from HuggingFace:")
+        print("   https://huggingface.co/models?search=gguf")
         return False
+    else:
+        print(f"✅ Found {len(gguf_files)} GGUF model(s):")
+        for model_file in gguf_files:
+            size_mb = model_file.stat().st_size / (1024 * 1024)
+            print(f"   - {model_file.name} ({size_mb:.1f} MB)")
+        return True
 
 
 def main():
     """Main launcher function"""
-    print("🚀 RAG System Streamlit App Launcher")
-    print("=" * 50)
+    print("🚀 RAG System Streamlit App Launcher (llama.cpp)")
+    print("=" * 60)
 
     # Check Python version
     if sys.version_info < (3, 8):
@@ -98,19 +103,19 @@ def main():
     print("\n📁 Setting up directories...")
     setup_directories()
 
-    # Check Ollama
-    print("\n🦙 Checking Ollama...")
-    ollama_running = check_ollama()
+    # Check for llama.cpp model
+    print("\n🦙 Checking for llama.cpp models...")
+    model_available = check_llama_model()
 
-    if not ollama_running:
-        print("\n⚠️  Ollama not running. The app will work but LLM queries will fail.")
+    if not model_available:
+        print("\n⚠️  No models found. The app will start but LLM queries will fail.")
         choice = input("Continue anyway? (y/N): ").lower().strip()
         if choice not in ['y', 'yes']:
-            print("Please start Ollama and try again.")
+            print("Please download a GGUF model and try again.")
             sys.exit(1)
 
     # Check for documents
-    docs_path = Path(".venv/documents")
+    docs_path = Path("documents")
     txt_files = list(docs_path.glob("*.txt"))
     md_files = list(docs_path.glob("*.md"))
     total_files = len(txt_files) + len(md_files)
@@ -124,7 +129,7 @@ def main():
     print("\n🌐 Launching Streamlit app...")
     print("📱 App will open in your browser at: http://localhost:8501")
     print("🛑 Press Ctrl+C to stop the server")
-    print("-" * 50)
+    print("-" * 60)
 
     try:
         # Get the directory of this script
