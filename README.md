@@ -12,13 +12,14 @@ A hardware-adaptive Retrieval-Augmented Generation (RAG) system designed for edu
 - **Caching System**: Smart caching to improve response times
 - **Multiple Document Formats**: Supports .txt and .md files
 
-## Quick Start
+## Quick Start (llama.cpp version)
 
 ### Prerequisites
 
 - Python 3.8+
 - 4GB+ RAM recommended
-- Ollama installed locally (for LLM inference)
+- [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) installed
+- [GGUF model file](https://huggingface.co/models?search=gguf) downloaded (recommended: Llama-3.2-3B-Instruct-Q4_K_M.gguf)
 
 ### Installation
 
@@ -30,13 +31,17 @@ cd educational-rag-system
 
 2. Install dependencies:
 ```bash
-pip install streamlit sentence-transformers plotly pandas requests numpy psutil
+pip install -r requirements.txt
+# For NVIDIA GPU acceleration:
+CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python
 ```
 
-3. Install and setup Ollama:
+3. Download a GGUF model and place it in the `models/` directory:
 ```bash
-# Install Ollama (see https://ollama.ai for platform-specific instructions)
-ollama pull llama3.2:3b
+mkdir -p models
+# Download your preferred .gguf model (e.g., from HuggingFace)
+# Example (update as needed):
+# wget <huggingface-gguf-model-link> -O models/Llama-3.2-3B-Instruct-Q4_K_M.gguf
 ```
 
 4. Add your documents:
@@ -69,11 +74,16 @@ python main.py
 ## Configuration
 
 The system automatically creates and optimizes a configuration file (`rag_config.json`) based on your hardware. Key settings include:
+- `llm_provider`: "llamacpp"
+- `model_path`: Path to your downloaded GGUF file
+- Hardware and retrieval parameters
 
-- **Chunk Size**: 128 tokens (optimized for safety procedures)
-- **Safety Detection**: Enabled by default
-- **Hardware Optimization**: Automatic based on detected capabilities
-- **Evaluation**: Quality assessment pipeline included
+Edit `rag_config.json` to customize:
+- Chunking parameters
+- Safety detection settings
+- Retrieval parameters
+- Cache settings
+- Evaluation thresholds
 
 ## Usage
 
@@ -128,24 +138,14 @@ The system automatically detects and optimizes for:
 - **HardwareAdaptiveRAGSystem**: Main orchestration class
 - **RAGEvaluator**: Quality assessment and benchmarking
 
-### Configuration Options
-
-Edit `rag_config.json` to customize:
-
-- Chunking parameters
-- Safety detection settings
-- Retrieval parameters
-- Cache settings
-- Evaluation thresholds
-
 ## Troubleshooting
 
 ### Common Issues
 
-1. **Ollama Connection Failed**: Ensure Ollama is running with `ollama serve`
-2. **Out of Memory**: Reduce `embedding_batch_size` in config
-3. **Slow Performance**: Check hardware tier in system status
-4. **No Documents Found**: Verify .txt/.md files are in `documents/` directory
+1. **Model file not found**: Ensure a `.gguf` model file is in the `models/` directory and `rag_config.json` points to its correct path.
+2. **llama-cpp-python not installed**: Run `pip install llama-cpp-python`, and for GPU users: `CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python`
+3. **Out of Memory**: Reduce the `embedding_batch_size` in your config or use a smaller model variant.
+4. **No Documents Found**: Make sure `.txt` or `.md` files are inside the `documents/` directory.
 
 ### Performance Tips
 
